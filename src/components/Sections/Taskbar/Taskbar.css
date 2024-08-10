@@ -1,0 +1,13 @@
+.taskbar-gradient {
+    background: rgb(36,94,220);
+    background: -moz-linear-gradient(0deg, rgba(36,94,220,1) 0%, rgba(100,162,216,1) 70%, rgba(36,94,220,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(36,94,220,1) 0%, rgba(100,162,216,1) 70%, rgba(36,94,220,1) 100%);
+    background: linear-gradient(0deg, rgba(36,94,220,1) 0%, rgba(100,162,216,1) 70%, rgba(36,94,220,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#245edc", endColorstr="#245edc", GradientType=1);
+}
+
+.start-button-gradient {
+    background: linear-gradient(180deg, #7dcc41 0%, #5ba92a 50%, #499822 100%);
+    border: 1px solid #3c7a1c;
+    box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.3), inset 1px 1px 1px rgba(0, 0, 0, 0.2);
+}

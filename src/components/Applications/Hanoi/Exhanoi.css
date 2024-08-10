@@ -1,0 +1,16 @@
+.hanoiBG{
+    background-color: #FEFEFE;
+    opacity: 0.8;
+    background-image:  radial-gradient(#ec722e 0.8500000000000001px, transparent 0.8500000000000001px), radial-gradient(#ec722e 0.8500000000000001px, #FEFEFE 0.8500000000000001px);
+    background-size: 34px 34px;
+    background-position: 0 0,17px 17px;
+}
+
+.exhanoi1BG{
+    background-color: #FEFEFE;
+    opacity: 0.8;
+    background-image:  radial-gradient(#245DDB 1px, transparent 1px), radial-gradient(#245DDB 1px, #FEFEFE 1px);
+    background-size: 40px 40px;
+    background-position: 0 0,20px 20px;
+}
+
