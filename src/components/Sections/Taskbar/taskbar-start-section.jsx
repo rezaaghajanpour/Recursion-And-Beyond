@@ -8,7 +8,7 @@ export default function TaskBarStartSection({showStart, setShowStart}) {
         <div className='w-full h-[12%] bg-tertiary flex items-center px-2'>
             <div className='flex items-center gap-2 text-secondary'>
                 <img className= 'rounded-xl w-[46px]' src="/img/LOGO.jpg" alt="my-Logo" />
-                <h2>Created By <strong>Aryanoor</strong></h2>
+                <h2>Created By <a href="https://www.linkedin.com/in/aryan-nourbakhsh-2252702b7/" target="_blank" rel="noopener noreferrer"><strong>Aryanoor</strong></a></h2>
             </div>
         </div>
         <div className='flex w-full h-[88%]'>
