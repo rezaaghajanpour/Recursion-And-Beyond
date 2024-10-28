@@ -13,13 +13,12 @@ export default function TaskBarStartSection({showStart, setShowStart}) {
         </div>
         <div className='flex w-full h-[88%]'>
             <div className='border-r-2 w-1/2 bg-secondary'>
-              <TaskBarApplication name={"Tic Tac Toe"} img={"/img/LOGO.jpg"} setShowStart={setShowStart} />
-              <TaskBarApplication name={"Hanoi"} appID={"hanoi"} img={"/img/LOGO.jpg"} setShowStart={setShowStart} />
-              <TaskBarApplication name={"Extended Hanoi 1"} appID={"exhanoi1"} img={"/img/LOGO.jpg"} setShowStart={setShowStart} />
-              <TaskBarApplication name={"Extended Hanoi 2"} appID={"exhanoi2"} img={"/img/LOGO.jpg"} setShowStart={setShowStart} />
-              <TaskBarApplication name={"Extended Hanoi 3"} appID={"exhanoi3"} img={"/img/LOGO.jpg"} setShowStart={setShowStart} />
-              <TaskBarApplication name={"Extended Hanoi 4"} appID={"exhanoi4"} img={"/img/LOGO.jpg"} setShowStart={setShowStart} />
-              <TaskBarApplication name={"Suduku"} img={"/img/LOGO.jpg"} setShowStart={setShowStart}/>
+              <TaskBarApplication name={"Tic Tac Toe"} appID={"tic-tac-toe"} img={"/img/tic-tac-toe.jpg"} setShowStart={setShowStart} />
+              <TaskBarApplication name={"Hanoi"} appID={"hanoi"} img={"/img/hanoi.jpg"} setShowStart={setShowStart} />
+              <TaskBarApplication name={"Extended Hanoi 1"} appID={"exhanoi1"} img={"/img/hanoi1.jpg"} setShowStart={setShowStart} />
+              <TaskBarApplication name={"Extended Hanoi 2"} appID={"exhanoi2"} img={"/img/hanoi2.jpg"} setShowStart={setShowStart} />
+              <TaskBarApplication name={"Extended Hanoi 3"} appID={"exhanoi3"} img={"/img/hanoi3.jpg"} setShowStart={setShowStart} />
+              <TaskBarApplication name={"Extended Hanoi 4"} appID={"exhanoi4"} img={"/img/hanoi4.jpg"} setShowStart={setShowStart} />
               <h2 className='p-2 h-[24%] flex items-end justify-center animate-bounce select-none'>Comming Soon...</h2>
             </div>
             <div className='bg-quaternary w-1/2'></div>

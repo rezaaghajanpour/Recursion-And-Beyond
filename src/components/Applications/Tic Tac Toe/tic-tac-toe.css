@@ -1,0 +1,40 @@
+.TicTacToe-bg{
+        background:
+              radial-gradient(circle farthest-side at 0% 50%,#FEFEFE 23.5%,#0000 0)21.0px 30px,
+              radial-gradient(circle farthest-side at 0% 50%,#D3E5FA 24%,#0000 0)19.0px 30px,
+              linear-gradient(#FEFEFE 14%,#0000 0, #0000 85%,#FEFEFE 0)0 0,
+              linear-gradient(150deg,#FEFEFE 24%,#D3E5FA 0,#D3E5FA 26%,#0000 0,#0000 74%,#D3E5FA 0,#D3E5FA 76%,#FEFEFE 0)0 0,
+              linear-gradient(30deg,#FEFEFE 24%,#D3E5FA 0,#D3E5FA 26%,#0000 0,#0000 74%,#D3E5FA 0,#D3E5FA 76%,#FEFEFE 0)0 0,
+              linear-gradient(90deg,#D3E5FA 2%,#FEFEFE 0,#FEFEFE 98%,#D3E5FA 0%)0 0 #FEFEFE;
+        background-size: 40px 60px;
+        background-color: #FEFEFE;
+}
+
+.shadow-3xl {
+      box-shadow: 0 20px 40px rgba(36, 93, 219, 0.4), 0 15px 30px rgba(236, 114, 46, 0.4);
+}
+    
+.shadow-inner-3xl {
+      box-shadow: inset 0 8px 16px rgba(36, 93, 219, 0.6), inset 0 -8px 16px rgba(236, 114, 46, 0.4);
+}
+    
+.shadow-piece {
+      box-shadow: 0 15px 25px rgba(236, 114, 46, 0.4), inset 0 5px 8px rgba(36, 93, 219, 0.3);
+}
+    
+.winning-piece {
+      position: relative;
+    }
+    
+    .winning-piece::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #1A901A;
+      opacity: 0.5; 
+      transform: scale(1.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+

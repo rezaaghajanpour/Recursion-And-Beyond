@@ -53,8 +53,9 @@ Remember:
 // }
  
 export const hanoi = (from, via, to, n, moves) => {
-  alert("complete hanoi function first!")
-};
+   alert("complete hanoi function first!")
+
+}
 
 export const exhanoi_1 = (A, B, C, n, moves) => {
   alert("complete exhanoi_1 function first!")
